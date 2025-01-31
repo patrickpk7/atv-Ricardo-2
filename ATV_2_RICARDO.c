@@ -25,14 +25,14 @@ int64_t turn_off_callback(alarm_id_t id, void *user_data) {
         gpio_put(LED_PIN_RED, 0);
         printf("RED OFF \n");
         estado_led = 1;
-        add_alarm_in_ms(2000, turn_off_callback, NULL, false);
+        add_alarm_in_ms(3000, turn_off_callback, NULL, false);
         break;
     // Desliga o LED verde
     case 1:
         gpio_put(LED_PIN_GREEN, 0);
         printf("GREEN OFF \n");
         estado_led = 2;
-        add_alarm_in_ms(2000, turn_off_callback, NULL, false);
+        add_alarm_in_ms(3000, turn_off_callback, NULL, false);
         break;
     // Desliga o LED azul
     case 2:
