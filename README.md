@@ -1,6 +1,6 @@
 # ATIVIDADE 2 - PROFESSOR RICARDO PRATES
-## Esse código liga os 3 Leds RGB da placa Raspberry Pi Pico W ao ser pressionado o botão A e após 3 segundos desliga o vermelho
-## após 3 segundos e verde e por fim o azul.
+## Esse código liga os 3 Leds RGB da placa Raspberry Pi Pico W ao ser pressionado o botão A e após 3 segundos desliga o vermelho após 3 segundos e verde e por fim o azul.
+
 ### Os LEDs Vermelho, Verde e Azul estão conectados aos pinos 13, 11 e 12, respectivamente.
 
 #### Exemplo:
